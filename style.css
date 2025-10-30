@@ -77,6 +77,7 @@ footer {
   margin: 20px 0;
 }
 /* about-us section */
+#our-menu p,
 #about-us p,
 #contact p {
   font-family: "Lato", sans-serif;
@@ -85,6 +86,11 @@ footer {
   line-height: 1.5;
   font-size: 1.2em;
 }
+
+.our-menu div {
+  display: inline-block;
+}
+
 /* contact section */
 form {
   width: 80%;
