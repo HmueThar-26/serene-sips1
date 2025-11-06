@@ -3,9 +3,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
-  background-color: #f0e2c5;
-  color: #49281a;
+  background-color: none;
+  color: rgb(64, 19, 34);
 }
 
 html {
@@ -14,10 +13,14 @@ html {
 /* header section */
 header {
   /* border: 2px solid #000; */
+  background-image: url(images/lavender\ cafe.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
   padding: 100px 0;
 }
 header h1 {
+  background-color: none;
   font-family: "Playfair Display SC", serif;
   font-size: 3rem;
   margin-bottom: 40px;
@@ -32,8 +35,8 @@ header a {
   font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
-  background-color: #49281a;
-  color: #f0e2c5;
+  background-color: rosybrown;
+  color: rgb(64, 19, 34);
   padding: 15px 30px;
   border-radius: 9px;
 }
@@ -49,8 +52,8 @@ nav {
   padding: 25px 0;
 }
 nav a {
-  background-color: #49281a;
-  color: #f0e2c5;
+  background-color: rosybrown;
+  color: rgb(64, 19, 34);
   text-decoration: none;
   margin-right: 20px;
   /* padding: 15px; */
@@ -60,6 +63,12 @@ nav a {
   height: 50px;
   line-height: 50px;
   border-radius: 9px;
+}
+* #our-menu,
+#about-us,
+#contact,
+footer {
+  background-color: lavenderblush;
 }
 /* our-menu section */
 #our-menu,
@@ -77,7 +86,7 @@ footer {
   margin: 20px 0;
 }
 /* about-us section */
-#our-menu p,
+/* #our-menu p, */
 #about-us p,
 #contact p {
   font-family: "Lato", sans-serif;
@@ -107,11 +116,11 @@ form div {
   width: 300px;
   border: none;
   outline: none;
-  border-bottom: 1px dotted #49281a;
+  border-bottom: 1px dotted rosybrown;
 }
 .btn-submit {
-  background-color: #49281a;
-  color: #f0e2c5;
+  background-color: rgb(214, 150, 150);
+  color: rgb(64, 19, 34);
   width: 200px;
   height: 50px;
   margin-left: 160px;
@@ -124,4 +133,34 @@ footer {
   text-align: center;
   font-family: "Lato", sans-serif;
   padding: 10px 0;
+}
+.card {
+  border: 2px solid rgb(93, 33, 53);
+  width: 300px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.card-body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-text {
+  line-height: 1.5;
+}
+.btn-order {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: rgb(206, 137, 137);
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 9px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
 }
