@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: lavenderblush;
   color: rgb(64, 19, 34);
 }
 
@@ -22,7 +21,6 @@ header {
   unicode-bidi: isolate;
 }
 header h1 {
-  background-color: none;
   font-family: "Playfair Display SC", serif;
   font-size: 3rem;
   margin-bottom: 40px;
