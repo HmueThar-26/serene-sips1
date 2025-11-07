@@ -40,6 +40,10 @@ header a {
   padding: 15px 30px;
   border-radius: 9px;
 }
+body,
+#our-menu p {
+  background-color: lavenderblush;
+}
 
 /* nav section */
 nav {
@@ -64,12 +68,7 @@ nav a {
   line-height: 50px;
   border-radius: 9px;
 }
-* #our-menu,
-#about-us,
-#contact,
-footer {
-  background-color: lavenderblush;
-}
+
 /* our-menu section */
 #our-menu,
 #about-us,
@@ -86,7 +85,6 @@ footer {
   margin: 20px 0;
 }
 /* about-us section */
-/* #our-menu p, */
 #about-us p,
 #contact p {
   font-family: "Lato", sans-serif;
@@ -133,6 +131,12 @@ footer {
   text-align: center;
   font-family: "Lato", sans-serif;
   padding: 10px 0;
+}
+
+footer a {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 .card {
   border: 2px solid rgb(93, 33, 53);
