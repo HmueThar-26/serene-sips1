@@ -84,6 +84,40 @@ footer {
   font-size: 2rem;
   margin: 20px 0;
 }
+#our-menu h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  border: 2px solid rgb(93, 33, 53);
+  width: 300px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 9px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.card-body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-text {
+  line-height: 1.5;
+}
+.btn-order {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: rgb(206, 137, 137);
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 9px;
+}
 /* about-us section */
 #about-us p,
 #contact p {
@@ -114,7 +148,8 @@ form div {
   width: 300px;
   border: none;
   outline: none;
-  border-bottom: 1px dotted rosybrown;
+  border-bottom: 1px dotted;
+  background-color: lavenderblush;
 }
 .btn-submit {
   background-color: rgb(214, 150, 150);
@@ -137,34 +172,4 @@ footer a {
   position: fixed;
   bottom: 20px;
   right: 20px;
-}
-.card {
-  border: 2px solid rgb(93, 33, 53);
-  width: 300px;
-  background-color: whitesmoke;
-  padding: 20px;
-  border-radius: 9px;
-}
-.card-img-top {
-  max-width: 100%;
-  border-radius: 9px;
-}
-.card-body {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.card-text {
-  line-height: 1.5;
-}
-.btn-order {
-  margin-bottom: 5px;
-  padding: 5px;
-  background-color: rgb(206, 137, 137);
-  text-decoration: none;
-  color: whitesmoke;
-  border-radius: 9px;
-}
-.card-container {
-  display: flex;
-  justify-content: center;
 }
